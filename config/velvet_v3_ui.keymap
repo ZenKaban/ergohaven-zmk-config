@@ -8,6 +8,8 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
+&key_repeat { usage-pages; };
+
 / {
     behaviors {
         cap_sen: cap_sen {
@@ -28,7 +30,6 @@
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <200>;
-            require-prior-idle-ms = <100>;
         };
 
         thumb_cluster: thumb_cluster {
@@ -105,10 +106,10 @@
 
         base {
             bindings = <
-&kp GRAVE     &kp Q         &kp W            &kp E     &kp R           &kp T                                                      &kp Y                        &kp U           &kp I      &kp O            &kp P            &kp LEFT_BRACKET
-&kp TAB       &hrm LCTRL A  &hrm LEFT_GUI S  &kp D     &kp F           &hrm LS(LA(LC(LEFT_GUI))) G                                &hrm LS(LA(LC(LEFT_GUI))) H  &kp J           &kp K      &hrm LEFT_GUI L  &hrm LCTRL SEMI  &kp SINGLE_QUOTE
-&kp LEFT_ALT  &kp Z         &kp X            &kp C     &kp V           &kp B                                                      &kp N                        &kp M           &kp COMMA  &kp DOT          &kp SQT          &sk LEFT_ALT
-                            &kp LALT         &kp LGUI  &sk LEFT_SHIFT  &thumb_cluster 1 BACKSPACE   &kp LC(SPACE)    &kp LG(RET)  &thumb_cluster 2 SPACE       &cap_sen 4 MB1  &kp LBKT   &kp RBKT
+&kp GRAVE     &kp Q         &kp W            &kp E     &kp R           &kp T                                                          &kp Y                        &kp U           &kp I      &kp O            &kp P            &kp LEFT_BRACKET
+&kp TAB       &hrm LCTRL A  &hrm LEFT_GUI S  &kp D     &kp F           &hrm LS(LA(LC(LEFT_GUI))) G                                    &hrm LS(LA(LC(LEFT_GUI))) H  &kp J           &kp K      &hrm LEFT_GUI L  &hrm LCTRL SEMI  &kp SINGLE_QUOTE
+&kp LEFT_ALT  &kp Z         &kp X            &kp C     &kp V           &kp B                                                          &kp N                        &kp M           &kp COMMA  &kp DOT          &kp SQT          &sk LEFT_ALT
+                            &kp LALT         &kp LGUI  &sk LEFT_SHIFT  &thumb_cluster 1 BACKSPACE   &kp LC(SPACE)    &hrm LGUI ENTER  &thumb_cluster 2 SPACE       &cap_sen 4 MB1  &kp LBKT   &kp RBKT
             >;
 
             display-name = "Base";
