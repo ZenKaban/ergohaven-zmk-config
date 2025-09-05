@@ -107,8 +107,8 @@
             bindings = <
 &kp GRAVE     &kp Q         &kp W            &kp E     &kp R           &kp T                                                          &kp Y                        &kp U           &kp I      &kp O            &kp P            &kp LEFT_BRACKET
 &kp TAB       &hrm LCTRL A  &hrm LEFT_GUI S  &kp D     &kp F           &hrm LS(LA(LC(LEFT_GUI))) G                                    &hrm LS(LA(LC(LEFT_GUI))) H  &kp J           &kp K      &hrm LEFT_GUI L  &hrm LCTRL SEMI  &kp SINGLE_QUOTE
-&kp LEFT_ALT  &kp Z         &kp X            &kp C     &kp V           &kp B                                                          &kp N                        &kp M           &kp COMMA  &kp DOT          &kp SQT          &sk LEFT_ALT
-                            &kp LALT         &kp LGUI  &sk LEFT_SHIFT  &th_cl 1 BACKSPACE           &kp LC(SPACE)    &hrm LGUI ENTER  &th_cl 2 SPACE               &cap_sen 4 MB1  &kp LBKT   &kp RBKT
+&kp LEFT_ALT  &kp Z         &kp X            &kp C     &kp V           &kp B                                                          &kp N                        &kp M           &kp COMMA  &kp DOT          &kp SLASH        &sk LEFT_ALT
+                            &kp LALT         &kp LGUI  &sk LEFT_SHIFT  &lt 1 BACKSPACE              &kp LC(SPACE)    &hrm LGUI ENTER  &lt 2 SPACE                  &cap_sen 4 MB1  &kp LBKT   &kp RBKT
             >;
 
             display-name = "Base";
@@ -127,10 +127,10 @@
 
         nav {
             bindings = <
-&trans  &kp LG(PRINTSCREEN)  &kp PRINTSCREEN  &kp LC(LS(RIGHT_BRACKET))  &kp LS(LC(LA(LG(R))))  &none                          &kp K_PREVIOUS      &kp K_NEXT      &kp K_PLAY_PAUSE  &kp K_MUTE       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&trans  &kp LCTRL            &none            &kp LC(PAGE_UP)            &kp LC(PAGE_DOWN)      &none                          &kp LC(LEFT_ARROW)  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &kp DELETE         &kp INSERT
-&trans  &trans               &none            &kp LC(LEFT_BRACKET)       &kp LC(RIGHT_BRACKET)  &none                          &kp HOME            &kp PAGE_DOWN   &kp PAGE_UP       &kp END          &trans             &kp ESC
-                             &trans           &trans                     &trans                 &mo 3  &kp CAPSLOCK    &trans  &trans              &trans          &trans            &trans
+&trans  &kp LG(PRINTSCREEN)  &kp PRINTSCREEN  &kp LC(LS(RIGHT_BRACKET))  &kp LS(LC(LA(LG(R))))  &none                          &kp K_PREVIOUS  &kp K_NEXT      &kp K_PLAY_PAUSE  &kp K_MUTE       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&trans  &kp LCTRL            &none            &kp LC(PAGE_UP)            &kp LC(PAGE_DOWN)      &none                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &kp DELETE         &kp INSERT
+&trans  &trans               &none            &kp LC(LEFT_BRACKET)       &kp LC(RIGHT_BRACKET)  &none                          &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP       &kp END          &trans             &kp ESC
+                             &trans           &trans                     &trans                 &mo 3  &kp CAPSLOCK    &trans  &trans          &trans          &trans            &trans
             >;
 
             display-name = "Navigation";
