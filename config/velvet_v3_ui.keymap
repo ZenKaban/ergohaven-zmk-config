@@ -56,7 +56,7 @@
         compatible = "zmk,combos";
 
         jk {
-            bindings = <&jk CAPSLOCK>;
+            bindings = <&jk LG(F12)>;
             key-positions = <19 20>;
             layers = <0 2 1 3>;
             require-prior-idle-ms = <50>;
@@ -133,7 +133,7 @@
 &kp GRAVE     &kp Q         &kp W            &kp E         &kp R           &kp T                                                                         &kp Y                        &kp U      &kp I          &kp O            &kp P            &kp LEFT_BRACKET
 &kp TAB       &hrm LCTRL A  &hrm LEFT_GUI S  &kp D         &kp F           &hrm LS(LA(LC(LEFT_GUI))) G                                                   &hrm LS(LA(LC(LEFT_GUI))) H  &kp J      &kp K          &hrm LEFT_GUI L  &hrm LCTRL SEMI  &kp SINGLE_QUOTE
 &kp LEFT_ALT  &kp Z         &kp X            &kp C         &kp V           &kp B                                                                         &kp N                        &kp M      &kp COMMA      &kp DOT          &kp SLASH        &sk LEFT_ALT
-                            &kp LG(LC(F12))  &kp CAPSLOCK  &sk LEFT_SHIFT  &th_cl 1 BACKSPACE           &hrm LC(LEFT_SHIFT) CAPSLOCK    &hrm LGUI ENTER  &th_cl 2 SPACE               &sen_mo 4  &kp LS(LCTRL)  &kp RBKT
+                            &kp LG(F12)      &kp CAPSLOCK  &sk LEFT_SHIFT  &th_cl 1 BACKSPACE           &hrm LC(LEFT_SHIFT) CAPSLOCK    &hrm LGUI ENTER  &th_cl 2 SPACE               &sen_mo 4  &kp LS(LCTRL)  &kp RBKT
             >;
 
             display-name = "Base";
