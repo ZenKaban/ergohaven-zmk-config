@@ -28,7 +28,7 @@
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <200>;
-            quick-tap-ms = <80>;
+            quick-tap-ms = <150>;
         };
 
         th_cl: th_cl {
@@ -56,7 +56,7 @@
         compatible = "zmk,combos";
 
         jk {
-            bindings = <&jk>;
+            bindings = <&jk CAPSLOCK>;
             key-positions = <19 20>;
             layers = <0 2 1 3>;
             require-prior-idle-ms = <50>;
@@ -100,10 +100,10 @@
 
     macros {
         jk: jk {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
             bindings =
-                <&kp LG(F12)>,
+                <&macro_param_1to1 &kp MACRO_PLACEHOLDER>,
                 <&macro_wait_time 30>,
                 <&kp LC(LEFT_BRACKET)>;
 
