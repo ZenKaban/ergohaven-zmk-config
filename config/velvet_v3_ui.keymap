@@ -28,6 +28,7 @@
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <200>;
+            quick-tap-ms = <80>;
         };
 
         th_cl: th_cl {
@@ -129,10 +130,10 @@
 
         base {
             bindings = <
-&kp GRAVE     &kp Q         &kp W            &kp E          &kp R           &kp T                                                                          &kp Y                        &kp U      &kp I          &kp O            &kp P            &kp LEFT_BRACKET
-&kp TAB       &hrm LCTRL A  &hrm LEFT_GUI S  &kp D          &kp F           &hrm LS(LA(LC(LEFT_GUI))) G                                                    &hrm LS(LA(LC(LEFT_GUI))) H  &kp J      &kp K          &hrm LEFT_GUI L  &hrm LCTRL SEMI  &kp SINGLE_QUOTE
-&kp LEFT_ALT  &kp Z         &kp X            &kp C          &kp V           &kp B                                                                          &kp N                        &kp M      &kp COMMA      &kp DOT          &kp SLASH        &sk LEFT_ALT
-                            &kp LG(LC(F12))  &kp LC(SPACE)  &sk LEFT_SHIFT  &th_cl 1 BACKSPACE           &hrm LC(LEFT_SHIFT) LC(SPACE)    &hrm LGUI ENTER  &th_cl 2 SPACE               &sen_mo 4  &kp LS(LCTRL)  &kp RBKT
+&kp GRAVE     &kp Q         &kp W            &kp E         &kp R           &kp T                                                                         &kp Y                        &kp U      &kp I          &kp O            &kp P            &kp LEFT_BRACKET
+&kp TAB       &hrm LCTRL A  &hrm LEFT_GUI S  &kp D         &kp F           &hrm LS(LA(LC(LEFT_GUI))) G                                                   &hrm LS(LA(LC(LEFT_GUI))) H  &kp J      &kp K          &hrm LEFT_GUI L  &hrm LCTRL SEMI  &kp SINGLE_QUOTE
+&kp LEFT_ALT  &kp Z         &kp X            &kp C         &kp V           &kp B                                                                         &kp N                        &kp M      &kp COMMA      &kp DOT          &kp SLASH        &sk LEFT_ALT
+                            &kp LG(LC(F12))  &kp CAPSLOCK  &sk LEFT_SHIFT  &th_cl 1 BACKSPACE           &hrm LC(LEFT_SHIFT) CAPSLOCK    &hrm LGUI ENTER  &th_cl 2 SPACE               &sen_mo 4  &kp LS(LCTRL)  &kp RBKT
             >;
 
             display-name = "Base";
