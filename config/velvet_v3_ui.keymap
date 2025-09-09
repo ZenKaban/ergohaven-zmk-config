@@ -165,9 +165,9 @@
 
         sym {
             bindings = <
-&sk LC(LEFT_ALT)  &kp N1             &kp N2                      &kp N3                  &kp N4            &kp N5                              &kp N6            &kp N7             &kp N8                  &kp N9                 &kp N0                &sk LC(LEFT_SHIFT)
-&sk LEFT_ALT      &hrm LCTRL LS(N1)  &hrm LEFT_GUI LS(NUMBER_2)  &hrm LEFT_SHIFT LS(N3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                    &kp LS(NUMBER_6)  &kp LS(NUMBER_7)   &hrm LEFT_SHIFT LS(N8)  &hrm LEFT_GUI LS(N9)   &hrm LCTRL LS(N0)     &sk LCTRL
-&trans            &kp MINUS          &kp EQUAL                   &kp UNDER               &kp PLUS          &tog 7                              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_BRACKET)    &kp LS(RIGHT_BRACKET)  &kp NON_US_BACKSLASH  &kp PIPE
+&sk LC(LEFT_ALT)  &kp N1             &kp N2                      &kp N3                  &kp N4            &kp N5                              &kp N6            &kp N7             &kp N8                  &kp N9                 &kp N0             &sk LC(LEFT_SHIFT)
+&sk LEFT_ALT      &hrm LCTRL LS(N1)  &hrm LEFT_GUI LS(NUMBER_2)  &hrm LEFT_SHIFT LS(N3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                    &kp LS(NUMBER_6)  &kp LS(NUMBER_7)   &hrm LEFT_SHIFT LS(N8)  &hrm LEFT_GUI LS(N9)   &hrm LCTRL LS(N0)  &sk LCTRL
+&trans            &kp MINUS          &kp EQUAL                   &kp UNDER               &kp PLUS          &tog 7                              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_BRACKET)    &kp LS(RIGHT_BRACKET)  &kp BACKSLASH      &kp PIPE
                                      &trans                      &trans                  &trans            &trans            &trans    &trans  &mo 3             &trans             &sk LEFT_GUI            &sk LS(LEFT_GUI)
             >;
 
