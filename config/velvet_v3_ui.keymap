@@ -121,6 +121,11 @@
             key-positions = <14 15>;
             layers = <0>;
         };
+
+        mk3_double {
+            bindings = <&mkp MCLK>;
+            key-positions = <44 45>;
+        };
     };
 
     macros {
@@ -155,10 +160,10 @@
 
         base {
             bindings = <
-&lt 9 GRAVE  &kp Q         &kp W            &kp E         &kp R           &kp T                                                                         &kp Y                        &kp U  &kp I         &kp O             &kp P            &kp LEFT_BRACKET
-&kp TAB      &hrm LCTRL A  &hrm LEFT_GUI S  &kp D         &kp F           &hrm LS(LA(LC(LEFT_GUI))) G                                                   &hrm LS(LA(LC(LEFT_GUI))) H  &kp J  &kp K         &hrm LEFT_GUI L   &hrm LCTRL SEMI  &kp SINGLE_QUOTE
-&caps_word   &kp Z         &kp X            &kp C         &kp V           &kp B                                                                         &kp N                        &kp M  &kp COMMA     &kp DOT           &kp SLASH        &sk LEFT_ALT
-                           &kp LEFT_ALT     &kp CAPSLOCK  &sk LEFT_SHIFT  &th_cl 1 BACKSPACE           &hrm LC(LEFT_SHIFT) CAPSLOCK    &hrm LGUI ENTER  &th_cl 2 SPACE               &none  &sk LEFT_GUI  &sk LS(LEFT_GUI)
+&lt 9 GRAVE  &kp Q         &kp W            &kp E         &kp R           &kp T                                                                         &kp Y                        &kp U  &kp I      &kp O            &kp P            &kp LEFT_BRACKET
+&kp TAB      &hrm LCTRL A  &hrm LEFT_GUI S  &kp D         &kp F           &hrm LS(LA(LC(LEFT_GUI))) G                                                   &hrm LS(LA(LC(LEFT_GUI))) H  &kp J  &kp K      &hrm LEFT_GUI L  &hrm LCTRL SEMI  &kp SINGLE_QUOTE
+&caps_word   &kp Z         &kp X            &kp C         &kp V           &kp B                                                                         &kp N                        &kp M  &kp COMMA  &kp DOT          &kp SLASH        &sk LEFT_ALT
+                           &kp LEFT_ALT     &kp CAPSLOCK  &sk LEFT_SHIFT  &th_cl 1 BACKSPACE           &hrm LC(LEFT_SHIFT) CAPSLOCK    &hrm LGUI ENTER  &th_cl 2 SPACE               &none  &mkp LCLK  &mkp RCLK
             >;
 
             display-name = "Base";
