@@ -162,7 +162,7 @@
 &trans  &kp LG(PRINTSCREEN)  &kp PRINTSCREEN  &kp LC(LS(RIGHT_BRACKET))  &kp LS(LC(LA(LG(R))))  &none                          &kp K_PREVIOUS  &kp K_NEXT      &kp K_PLAY_PAUSE  &kp K_MUTE       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
 &trans  &trans               &kp LC(N6)       &kp LC(PAGE_UP)            &kp LC(PAGE_DOWN)      &none                          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &kp DELETE         &kp INSERT
 &trans  &trans               &none            &kp LC(LEFT_BRACKET)       &kp LC(RIGHT_BRACKET)  &none                          &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP       &kp END          &kp LC(K_MUTE)     &kp ESC
-                             &trans           &trans                     &trans                 &mo 3  &kp CAPSLOCK    &trans  &trans          &trans          &kp LC(PG_UP)     &kp LC(PG_DN)
+                             &kp LCTRL        &kp LS(LCTRL)              &trans                 &mo 3  &kp CAPSLOCK    &trans  &trans          &trans          &kp LC(PG_UP)     &kp LC(PG_DN)
             >;
 
             display-name = "Navigation";
