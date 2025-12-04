@@ -137,10 +137,10 @@
 
         base {
             bindings = <
-&lt 9 GRAVE  &kp Q         &kp W            &kp E              &kp R           &kp T                                                                         &kp Y                        &kp U  &kp I              &kp O             &kp P            &kp LEFT_BRACKET
-&lt 5 TAB    &hrm LCTRL A  &hrm LEFT_GUI S  &hrm LEFT_SHIFT D  &kp F           &hrm LS(LA(LC(LEFT_GUI))) G                                                   &hrm LS(LA(LC(LEFT_GUI))) H  &kp J  &hrm LEFT_SHIFT K  &hrm LEFT_GUI L   &hrm LCTRL SEMI  &kp SINGLE_QUOTE
-&caps_word   &kp Z         &kp X            &kp C              &kp V           &kp B                                                                         &kp N                        &kp M  &kp COMMA          &kp DOT           &kp SLASH        &sk LEFT_ALT
-                           &mkp LCLK        &mkp RCLK          &sk LEFT_SHIFT  &th_cl 1 BACKSPACE           &hrm LC(LEFT_SHIFT) CAPSLOCK    &hrm LGUI ENTER  &th_cl 2 SPACE               &none  &sk LEFT_GUI       &sk LS(LEFT_GUI)
+&lt 9 GRAVE  &kp Q         &kp W            &kp E              &kp R  &kp T                                                                         &kp Y                        &kp U  &kp I              &kp O             &kp P            &kp LEFT_BRACKET
+&kp TAB      &hrm LCTRL A  &hrm LEFT_GUI S  &hrm LEFT_SHIFT D  &kp F  &hrm LS(LA(LC(LEFT_GUI))) G                                                   &hrm LS(LA(LC(LEFT_GUI))) H  &kp J  &hrm LEFT_SHIFT K  &hrm LEFT_GUI L   &hrm LCTRL SEMI  &kp SINGLE_QUOTE
+&caps_word   &kp Z         &kp X            &kp C              &kp V  &kp B                                                                         &kp N                        &kp M  &kp COMMA          &kp DOT           &kp SLASH        &sk LEFT_ALT
+                           &mkp LCLK        &mkp RCLK          &mo 5  &th_cl 1 BACKSPACE           &hrm LC(LEFT_SHIFT) CAPSLOCK    &hrm LGUI ENTER  &th_cl 2 SPACE               &none  &sk LEFT_GUI       &sk LS(LEFT_GUI)
             >;
 
             display-name = "Base";
