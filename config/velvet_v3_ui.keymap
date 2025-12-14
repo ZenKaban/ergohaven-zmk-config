@@ -177,7 +177,7 @@
                                      &trans                      &trans                  &trans            &trans            &trans    &trans  &mo 3             &trans             &trans                  &trans
             >;
 
-            display-name = "Symbols";
+            display-name = "Nav";
         };
 
         nav {
