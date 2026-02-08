@@ -99,19 +99,19 @@
         };
 
         m1 {
-            bindings = <&mkp LCLK>;
+            bindings = <&mkp MB1>;
             key-positions = <15 16>;
             layers = <0>;
         };
 
         mk2 {
-            bindings = <&mkp RCLK>;
+            bindings = <&mkp MB2>;
             key-positions = <16 17>;
             layers = <0>;
         };
 
         mk3 {
-            bindings = <&mkp MCLK>;
+            bindings = <&mkp MB3>;
             key-positions = <16 17 15>;
             layers = <0>;
         };
@@ -123,7 +123,7 @@
         };
 
         mk3_double {
-            bindings = <&mkp MCLK>;
+            bindings = <&mkp MB3>;
             key-positions = <44 45>;
         };
     };
