@@ -192,7 +192,12 @@
         bt0_lin: bt0_lin {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0>, <&macro_tap>, <&to 4>;
+            bindings =
+                <&macro_tap>,
+                <&bt BT_SEL 0>,
+                <&macro_tap>,
+                <&tog 4>,
+                <&macro_press>;
 
             label = "BT0_LIN";
         };
@@ -200,7 +205,13 @@
         bt1_mac: bt1_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1>, <&macro_tap>, <&to 0>;
+            bindings =
+                <&macro_tap>,
+                <&tog 4>,
+                <&macro_tap>,
+                <&bt BT_SEL 1>,
+                <&macro_tap>,
+                <&tog 0>;
 
             label = "BT1_MAC";
         };
