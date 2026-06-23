@@ -223,10 +223,10 @@
         mac_base {
             display-name = "MAC Base";
             bindings = <
-&lt 13 GRAVE  &kp Q        &kp W            &kp E         &kp R           &kp T                                                                          &kp Y                        &kp U  &kp I         &kp O            &kp P           &kp LEFT_BRACKET
-&kp TAB       &hrm LCMD A  &hrm LEFT_ALT S  &hrm LCTRL D  &kp F           &hrm LS(LA(LC(LEFT_GUI))) G                                                    &hrm LS(LA(LC(LEFT_GUI))) H  &kp J  &hrm LCTRL K  &hrm LEFT_ALT L  &hrm LCMD SEMI  &kp SINGLE_QUOTE
-&caps_word    &kp Z        &kp X            &kp C         &kp V           &kp B                                                                          &kp N                        &kp M  &kp COMMA     &kp DOT          &kp SLASH       &sk LEFT_ALT
-                           &kp LEFT_ALT     &kp CAPSLOCK  &sk LEFT_SHIFT  &th_cl 1 BACKSPACE           &hrm LC(LEFT_SHIFT) CAPSLOCK    &hrm LCTRL ENTER  &th_cl 2 SPACE               &none  &mkp LCLK     &mkp RCLK
+&lt 13 GRAVE  &kp Q        &kp W            &kp E          &kp R           &kp T                                                          &kp Y                        &kp U  &kp I         &kp O            &kp P           &kp LEFT_BRACKET
+&kp TAB       &hrm LCMD A  &hrm LEFT_ALT S  &hrm LCTRL D   &kp F           &hrm LS(LA(LC(LEFT_GUI))) G                                    &hrm LS(LA(LC(LEFT_GUI))) H  &kp J  &hrm LCTRL K  &hrm LEFT_ALT L  &hrm LCMD SEMI  &kp SINGLE_QUOTE
+&caps_word    &kp Z        &kp X            &kp C          &kp V           &kp B                                                          &kp N                        &kp M  &kp COMMA     &kp DOT          &kp SLASH       &sk LEFT_ALT
+                           &kp LEFT_ALT     &sk LS(LCTRL)  &sk LEFT_SHIFT  &th_cl 1 BACKSPACE           &kp CAPSLOCK    &hrm LCTRL ENTER  &th_cl 2 SPACE               &none  &mkp LCLK     &mkp RCLK
             >;
         };
 
