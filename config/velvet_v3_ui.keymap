@@ -101,25 +101,25 @@
         m1 {
             bindings = <&mkp MB1>;
             key-positions = <15 16>;
-            layers = <0 9>;
+            layers = <0 9 4>;
         };
 
         mk2 {
             bindings = <&mkp MB2>;
             key-positions = <16 17>;
-            layers = <0 9>;
+            layers = <0 9 4>;
         };
 
         mk3 {
             bindings = <&mkp MB3>;
             key-positions = <16 17 15>;
-            layers = <0 9>;
+            layers = <0 9 4>;
         };
 
         scroll {
             bindings = <&mo 9>;
             key-positions = <14 15>;
-            layers = <0 9>;
+            layers = <0 9 4>;
         };
 
         mk3_double {
@@ -131,35 +131,35 @@
             bindings = <&kp LC(LEFT_BRACKET)>;
             key-positions = <19 20>;
             require-prior-idle-ms = <50>;
-            layers = <9>;
+            layers = <9 4>;
         };
 
         macz {
             bindings = <&kp LG(Z)>;
             key-positions = <25 26>;
             require-prior-idle-ms = <50>;
-            layers = <9>;
+            layers = <9 4>;
         };
 
         macx {
             bindings = <&kp LG(X)>;
             key-positions = <26 27>;
             require-prior-idle-ms = <50>;
-            layers = <9>;
+            layers = <9 4>;
         };
 
         macc {
             bindings = <&kp LG(C)>;
             key-positions = <27 28>;
             require-prior-idle-ms = <50>;
-            layers = <9>;
+            layers = <9 4>;
         };
 
         macv {
             bindings = <&kp LG(V)>;
             key-positions = <28 29>;
             require-prior-idle-ms = <50>;
-            layers = <9>;
+            layers = <9 4>;
         };
     };
 
