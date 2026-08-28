@@ -95,7 +95,7 @@
             bindings = <&kp ESC>;
             key-positions = <2 3>;
             require-prior-idle-ms = <50>;
-            layers = <0 9 9 9>;
+            layers = <0 9 9 9 4>;
         };
 
         m1 {
