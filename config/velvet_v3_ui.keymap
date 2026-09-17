@@ -161,6 +161,11 @@
             require-prior-idle-ms = <50>;
             layers = <9 4>;
         };
+
+        Sniper {
+            bindings = <&mo 10>;
+            key-positions = <3 4>;
+        };
     };
 
     macros {
